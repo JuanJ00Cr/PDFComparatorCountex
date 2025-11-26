@@ -1,0 +1,67 @@
+═══════════════════════════════════════════════════════════════
+  SISTEMA DE COMPARACIÓN DE PDFs CON IA - INICIO RÁPIDO
+═══════════════════════════════════════════════════════════════
+
+PASO 1: INSTALAR PYTHON (si no lo tienes)
+──────────────────────────────────────────
+1. Ve a: https://www.python.org/downloads/
+2. Descarga Python 3.8 o superior
+3. Durante la instalación, MARCA "Add Python to PATH"
+4. Reinicia la terminal después de instalar
+
+PASO 2: INSTALAR DEPENDENCIAS
+──────────────────────────────
+Abre una terminal en esta carpeta y ejecuta:
+
+    pip install -r requirements.txt
+
+O si no funciona:
+
+    python -m pip install -r requirements.txt
+
+PASO 3: CONFIGURAR API KEY (OPCIONAL)
+──────────────────────────────────────
+1. Copia el archivo .env.example y renómbralo a .env
+2. Edita .env y agrega tu API key de OpenAI:
+   
+   OPENAI_API_KEY=sk-tu_api_key_aqui
+
+   (Obtén tu API key en: https://platform.openai.com/api-keys)
+
+   NOTA: Sin API key, el sistema funcionará pero sin explicaciones de IA
+
+PASO 4: INICIAR EL SERVIDOR
+────────────────────────────
+Ejecuta en la terminal:
+
+    python main.py
+
+O:
+
+    python3 main.py
+
+Deberías ver:
+    "Uvicorn running on http://127.0.0.1:8000"
+
+PASO 5: ABRIR EN EL NAVEGADOR
+──────────────────────────────
+Abre tu navegador y ve a:
+
+    http://localhost:8000
+
+═══════════════════════════════════════════════════════════════
+
+SOLUCIÓN DE PROBLEMAS:
+
+❌ "Python no se encontró"
+   → Instala Python y marca "Add Python to PATH"
+
+❌ "ERR_CONNECTION_REFUSED" en el navegador
+   → Asegúrate de que el servidor esté corriendo (PASO 4)
+
+❌ Error al instalar dependencias
+   → Ejecuta: python -m pip install --upgrade pip
+   → Luego: python -m pip install -r requirements.txt
+
+═══════════════════════════════════════════════════════════════
+

@@ -1,0 +1,91 @@
+═══════════════════════════════════════════════════════════════
+  CÓMO INSTALAR PYTHON EN WINDOWS (MUY FÁCIL)
+═══════════════════════════════════════════════════════════════
+
+OPCIÓN 1: INSTALAR DESDE LA WEB (RECOMENDADO)
+──────────────────────────────────────────────
+
+1. Abre tu navegador y ve a:
+   https://www.python.org/downloads/
+
+2. Verás un botón grande amarillo "Download Python 3.x.x"
+   (la versión más reciente)
+   → Haz clic en ese botón
+
+3. Se descargará un archivo como: python-3.x.x-amd64.exe
+
+4. Abre ese archivo (doble clic)
+
+5. EN LA PANTALLA DE INSTALACIÓN:
+   ⚠️ MUY IMPORTANTE: Marca la casilla que dice:
+   ☑ "Add Python to PATH"
+   
+   (Esta casilla está en la parte inferior de la ventana)
+
+6. Haz clic en "Install Now"
+
+7. Espera a que termine (puede tardar unos minutos)
+
+8. Cuando termine, verás "Setup was successful"
+   → Haz clic en "Close"
+
+9. Cierra TODAS las ventanas de terminal/PowerShell que tengas abiertas
+
+10. Abre una NUEVA terminal (PowerShell o CMD)
+
+11. Verifica que funcionó escribiendo:
+    python --version
+    
+    Deberías ver algo como: Python 3.11.x
+
+12. ¡Listo! Ahora puedes usar el sistema.
+
+═══════════════════════════════════════════════════════════════
+
+OPCIÓN 2: INSTALAR DESDE MICROSOFT STORE (MÁS RÁPIDO)
+───────────────────────────────────────────────────────
+
+1. Abre Microsoft Store (búscalo en el menú inicio)
+
+2. Busca "Python 3.11" o "Python 3.12"
+
+3. Haz clic en "Obtener" o "Install"
+
+4. Espera a que se instale
+
+5. Abre una nueva terminal y verifica:
+   python --version
+
+═══════════════════════════════════════════════════════════════
+
+DESPUÉS DE INSTALAR PYTHON:
+────────────────────────────
+
+1. Abre una terminal en esta carpeta:
+   C:\Users\JuanJoséCañónRodrígu\pdf-comparator
+
+2. Ejecuta:
+   iniciar_servidor.bat
+
+   O manualmente:
+   pip install -r requirements.txt
+   python main.py
+
+3. Abre en el navegador:
+   http://localhost:8000
+
+═══════════════════════════════════════════════════════════════
+
+¿NECESITAS AYUDA?
+─────────────────
+
+Si tienes problemas:
+- Asegúrate de marcar "Add Python to PATH" durante la instalación
+- Reinicia la terminal después de instalar
+- Si sigue sin funcionar, reinstala Python y marca esa casilla
+
+═══════════════════════════════════════════════════════════════
+
+
+
+

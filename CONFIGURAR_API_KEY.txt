@@ -1,0 +1,50 @@
+═══════════════════════════════════════════════════════════════
+  CÓMO CONFIGURAR LA API KEY DE OPENAI
+═══════════════════════════════════════════════════════════════
+
+PASO 1: OBTENER TU API KEY
+───────────────────────────
+
+1. Ve a: https://platform.openai.com/api-keys
+2. Inicia sesión con tu cuenta de OpenAI
+3. Haz clic en "Create new secret key"
+4. Dale un nombre (ej: "PDF Comparator")
+5. Copia la clave que aparece (empieza con "sk-")
+   ⚠️ IMPORTANTE: Guárdala bien, solo se muestra una vez
+
+PASO 2: CREAR EL ARCHIVO .env
+──────────────────────────────
+
+1. Abre el Bloc de notas (Notepad)
+
+2. Escribe exactamente esto (reemplaza TU_API_KEY con la que copiaste):
+   
+   OPENAI_API_KEY=sk-tu_api_key_aqui
+
+   Ejemplo:
+   OPENAI_API_KEY=sk-proj-abc123xyz789...
+
+3. Guarda el archivo como:
+   - Nombre: .env
+   - Tipo: "Todos los archivos" (no .txt)
+   - Ubicación: C:\Users\JuanJoséCañónRodrígu\pdf-comparator\
+
+   ⚠️ IMPORTANTE: El nombre debe ser exactamente ".env" (con el punto al inicio)
+
+PASO 3: REINICIAR EL SERVIDOR
+──────────────────────────────
+
+1. Cierra la ventana del servidor (Ctrl+C)
+2. Ejecuta de nuevo: INICIAR_AQUI.bat
+3. Ahora debería funcionar con las explicaciones de IA
+
+═══════════════════════════════════════════════════════════════
+
+NOTA: El sistema FUNCIONA sin API key, pero sin las explicaciones
+inteligentes de IA. La comparación básica siempre funciona.
+
+═══════════════════════════════════════════════════════════════
+
+
+
+

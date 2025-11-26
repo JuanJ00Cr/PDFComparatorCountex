@@ -1,0 +1,70 @@
+═══════════════════════════════════════════════════════════════
+  SOLUCIÓN AL ERROR "ERR_CONNECTION_REFUSED"
+═══════════════════════════════════════════════════════════════
+
+El error significa que el servidor NO está corriendo.
+
+SOLUCIÓN RÁPIDA:
+─────────────────
+
+1. Abre una terminal (PowerShell o CMD) en esta carpeta:
+   C:\Users\JuanJoséCañónRodrígu\pdf-comparator
+
+2. Ejecuta el archivo:
+   iniciar_servidor.bat
+
+   (Haz doble clic en "iniciar_servidor.bat" o ejecútalo desde la terminal)
+
+3. Espera a ver el mensaje:
+   "Uvicorn running on http://127.0.0.1:8000"
+
+4. Luego abre en tu navegador:
+   http://localhost:8000
+
+═══════════════════════════════════════════════════════════════
+
+SI PYTHON NO ESTÁ INSTALADO:
+─────────────────────────────
+
+El script "iniciar_servidor.bat" te dirá si falta Python.
+
+Pasos para instalar Python:
+
+1. Ve a: https://www.python.org/downloads/
+2. Descarga Python 3.11 o superior
+3. Ejecuta el instalador
+4. ⚠️ IMPORTANTE: Marca la casilla "Add Python to PATH"
+5. Haz clic en "Install Now"
+6. Espera a que termine la instalación
+7. Cierra y vuelve a abrir la terminal
+8. Ejecuta de nuevo: iniciar_servidor.bat
+
+═══════════════════════════════════════════════════════════════
+
+SI LAS DEPENDENCIAS NO ESTÁN INSTALADAS:
+────────────────────────────────────────
+
+El script las instalará automáticamente, pero si hay problemas:
+
+1. Abre una terminal en esta carpeta
+2. Ejecuta:
+   python -m pip install --upgrade pip
+   python -m pip install -r requirements.txt
+
+═══════════════════════════════════════════════════════════════
+
+VERIFICAR QUE EL SERVIDOR ESTÁ CORRIENDO:
+───────────────────────────────────────────
+
+El servidor está corriendo cuando ves en la terminal:
+   INFO:     Uvicorn running on http://127.0.0.1:8000
+   INFO:     Application startup complete.
+
+Mientras veas esto, el servidor está activo.
+NO CIERRES esa ventana de terminal.
+
+═══════════════════════════════════════════════════════════════
+
+
+
+
